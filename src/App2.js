@@ -50,7 +50,7 @@ function total(cliente) {
 }
 
 function App2() {
-	const dados = mario;
+	const dados = luana;
 
 	return (
 		<div>
