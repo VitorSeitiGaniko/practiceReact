@@ -12,10 +12,11 @@ import App8 from "./App8";
 import App9 from "./App9";
 import App10 from "./App10";
 import App7Copy from "./App7Copy";
+import AppForm from "./AppForm";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<App10 />
+		<AppForm />
 	</React.StrictMode>
 );
