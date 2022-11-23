@@ -11,6 +11,7 @@ const App10 = () => {
 				<ContextGlobal />
 				<ContextGlobalReplace />
 			</GlobalStorage>
+			
 			<GlobalContextRequest>
 				<ContextGlobalRequest />
 			</GlobalContextRequest>

@@ -8,8 +8,9 @@ const ContextGlobalRequest = () => {
 		<div>
 			{dados.productsResponse && (
 				<section>
-					<p>{dados.productsResponse[0].nome}</p>
-					<p>{dados.productsResponse[1].nome}</p>
+					{dados.productsResponse.map(({nome}) => (
+						<li>{nome}</li>
+					))}
 				</section>
 			)}
 
