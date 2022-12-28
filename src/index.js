@@ -13,10 +13,11 @@ import App9 from "./App9";
 import App10 from "./App10";
 import App7Copy from "./App7Copy";
 import AppForm from "./AppForm";
+import DesafioForm from "./components/Formulario/DesafioForm";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<AppForm />
+		<DesafioForm />
 	</React.StrictMode>
 );
