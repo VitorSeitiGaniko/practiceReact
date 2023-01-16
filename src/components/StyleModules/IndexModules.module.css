@@ -1,0 +1,10 @@
+.titulo {
+	color: blue;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.descricao {
+	color: green;
+	font-size: 14px;
+}

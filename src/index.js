@@ -14,10 +14,18 @@ import App10 from "./App10";
 import App7Copy from "./App7Copy";
 import AppForm from "./AppForm";
 import DesafioForm from "./components/Formulario/DesafioForm";
+import ReqFetch from "./components/Requisicoes/ReqFetch";
+import ReqAwait from "./components/Requisicoes/ReqAwait";
+import ReqPromise from "./components/Requisicoes/ReqPromise";
+import ReqAwaitTry from "./components/Requisicoes/ReqAwaitTry";
+import IndexForm from "./components/FormularioSeparate/IndexForm";
+import IndexStyle from "./components/StyleComponents/IndexStyle";
+import IndexModules from "./components/StyleModules/IndexModules";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<DesafioForm />
+		<IndexStyle />
+		<IndexModules />
 	</React.StrictMode>
 );
